@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carcss.css">
+</head>
+
+<body>
+    <div class="content">
+        <form id="POST">
+            <div class="colI">
+                <img class="img"
+                    src="https://e1.pxfuel.com/desktop-wallpaper/250/422/desktop-wallpaper-130-car-ideas-in-2021-vertical-car.jpg"
+                    width="400px" alt="">
+            </div>
+            <div>
+                <h1>
+                    Registro de Vehículos
+                </h1>
+            </div>
+            <div class="colD">
+                <div>
+                    <h3>
+                        Detalles del Vehículo
+                    </h3>
+                </div>
+                <fieldset class="columnas">
+                    <div class="campo">
+                        <input type="text" id="id_coche" name="id_coche" placeholder="ID Coche">
+                    </div>
+
+                    <div class="campo select">
+                        <select id="id_movidoa" name="id_movidoa">
+                            <option disabled selected>Combustible</option>
+                            <option value="Gasolina">Gasolina</option>
+                            <option value="Diésel">Diésel</option>
+                            <option value="Eléctrico">Eléctrico</option>
+                            <option value="Híbrido">Híbrido</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="campo select">
+                        <select id="id_tipodecoche" name="id_tipodecoche">
+                            <option disabled selected>Tipo de coche</option>
+                            <option value="Coupé">Coupé</option>
+                            <option value="Camioneta">Camioneta</option>
+                            <option value="Hatchback">Clásico</option>
+                            <option value="Convertible">Convertible</option>
+                            <option value="Deportivo">Deportivo</option>
+                            <option value="Furgoneta">Furgoneta</option>
+                            <option value="Minivan">Minivan</option>
+                            <option value="Camión">Camión</option>
+                        </select>
+                    </div>
+
+                    <div class="campo select">
+                        <select id="id_estado" name="id_estado">
+                            <option disabled selected>Estado</option>
+                            <option value="Nuevo">Nuevo</option>
+                            <option value="Usado">Usado</option>
+                            <option value="Excelente">Excelente</option>
+                            <option value="Bueno">Bueno</option>
+                            <option value="Regular">Regular</option>
+                            <option value="Reparación Necesaria">Reparación Necesaria</option>
+                            <option value="Para Desguace">Para Desguace</option>
+                            <option value="Otro">Otro</option>
+                            <option value="En Venta">En Venta</option>
+                            <option value="No Disponible">No Disponible</option>
+                        </select>
+                    </div>
+
+                    <div class="campo select">
+                        <select id="id_marca" name="id_marca">
+                            <option disabled selected>Marca</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Mercedes-Benz">Mercedes-Benz</option>
+                            <option value="Audi">Audi</option>
+                            <option value="Volkswagen">Volkswagen</option>
+                            <option value="Hyundai">Hyundai</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" id="modelo" name="modelo" placeholder="Modelo">
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" id="año" name="año" placeholder="Año">
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" id="detalle" name="detalle" placeholder="Detalle">
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" id="caja" name="caja" placeholder="Caja">
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" id="motor" name="motor" placeholder="Motor">
+                    </div>
+                </fieldset>
+
+                <div>
+                    <h3>
+                        Detalles de la Oferta
+                    </h3>
+                </div>
+                <fieldset class="col">
+                    <div class="campo">
+                        <input type="date" id="fechapub" name="fechapub" placeholder="Fecha de publicación">
+                    </div>
+                    <div class="campo">
+                        <input type="text" id="precio" name="precio" placeholder="Precio">
+                    </div>
+
+                    <div class="campo select">
+                        <select class="mon" id="moneda" name="moneda">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="GBP">GBP</option>
+                            <option value="CAD">CAD</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <input type="text" id="descripcion1" name="descripcion1" placeholder="Descripción 1">
+                    </div>
+                    <div class="campo">
+                        <input type="text" id="descripcion2" name="descripcion2" placeholder="Descripción 2">
+                    </div>
+                    <div class="campo">
+                        <input type="text" id="descripcion3" name="descripcion3" placeholder="Descripción 3">
+                    </div>
+                </fieldset>
+                <input type="submit" value="Enviar">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

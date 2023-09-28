@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #643910, #1f1f1f, #1f1f1f, #1f1f1f, #1f1f1f, #643910);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: transparent;
+    height: 100vh;
+    width: 830px; 
+    padding: 0px 0px;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden; 
+}
+
+form {
+    width: 100%; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+    background-color: #dde5e325;
+    overflow: hidden; 
+}
+
+.colI {
+    width: 400px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.colD {
+    justify-content: space-between; /* Alineación horizontal al centro */
+    align-items: center; /* Alineación vertical al centro */
+    margin-top: 0px;
+    height: 90%;;
+    width: 50%;
+    float: right;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+h3,
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #643910 ;
+    color: #ccc;
+    text-align: center;
+    padding: 0%;
+}
+
+h3{
+    padding-bottom: 10px;
+    margin-bottom: -1px;
+    margin-top: -10px;
+}
+
+img{
+    height: 90%;
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px;
+    border-style: groove;
+    border-color: #c3c3c386;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset.campo {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+fieldset.columnas {
+    column-count: 2; 
+    column-gap: 20px;
+}
+
+fieldset.col{
+    padding: 10px 15px;
+}
+
+fieldset.col .campo{
+    margin-left: 10px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+select{
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #ccc;
+    cursor: pointer;
+    display: flex;
+    color: #818181;
+}
+
+select[class="mon"]{
+    width: 96%;
+}
+
+.campo input[type="text"],
+.campo input[type="date"] {
+    width: 93%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    width: 98%;
+    background-color: #4e9699;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    
+    background-color: #357e80;
+}
+
