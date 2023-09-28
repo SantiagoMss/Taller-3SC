@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="carBulma.css">
+</head>
+
+<body>
+    <div class="content has-text-centered py-4">
+        <form id="POST">
+            <div class="column is-centered">
+                <h1 class="title is-2 has-text-centered has-text-white">
+                    Registro de Vehículos
+                </h1>
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="id_coche" name="id_coche" placeholder="ID Coche" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-car"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="columns is-gapless">
+                            <div class="column">
+                                <div class="select">
+                                    <select id="id_movidoa" name="id_movidoa" class="input">
+                                        <option disabled selected>Comb</option>
+                                        <option value="Gasolina">Gasolina</option>
+                                        <option value="Diésel">Diésel</option>
+                                        <option value="Eléctrico">Eléctrico</option>
+                                        <option value="Híbrido">Híbrido</option>
+                                        <option value="Otros">Otros</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="select">
+                                    <select id="id_tipodecoche" name="id_tipodecoche" class="input">
+                                        <option disabled selected>Tipo</option>
+                                        <option value="Coupé">Coupé</option>
+                                        <option value="Camioneta">Camioneta</option>
+                                        <option value="Hatchback">Clásico</option>
+                                        <option value="Convertible">Convertible</option>
+                                        <option value="Deportivo">Deportivo</option>
+                                        <option value="Furgoneta">Furgoneta</option>
+                                        <option value="Minivan">Minivan</option>
+                                        <option value="Camión">Camión</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="select">
+                                    <select id="id_estado" name="id_estado" class="input">
+                                        <option disabled selected>Estado</option>
+                                        <option value="Nuevo">Nuevo</option>
+                                        <option value="Usado">Usado</option>
+                                        <option value="Excelente">Excelente</option>
+                                        <option value="Bueno">Bueno</option>
+                                        <option value="Regular">Regular</option>
+                                        <option value="Reparación Necesaria">Reparación Necesaria</option>
+                                        <option value="Para Desguace">Para Desguace</option>
+                                        <option value="Otro">Otro</option>
+                                        <option value="En Venta">En Venta</option>
+                                        <option value="No Disponible">No Disponible</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="select">
+                                    <select id="id_marca" name="id_marca" class="input">
+                                        <option disabled selected>Marca</option>
+                                        <option value="Toyota">Toyota</option>
+                                        <option value="Honda">Honda</option>
+                                        <option value="Ford">Ford</option>
+                                        <option value="Chevrolet">Chevrolet</option>
+                                        <option value="Nissan">Nissan</option>
+                                        <option value="BMW">BMW</option>
+                                        <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                        <option value="Audi">Audi</option>
+                                        <option value="Volkswagen">Volkswagen</option>
+                                        <option value="Hyundai">Hyundai</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="modelo" name="modelo" placeholder="Modelo" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-car"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="año" name="año" placeholder="Año" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-calendar"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="detalle" name="detalle" placeholder="Detalle" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-info-circle"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="caja" name="caja" placeholder="Caja" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-box"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="motor" name="motor" placeholder="Motor" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-wrench"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="date" id="fechapub" name="fechapub" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-calendar-alt"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="field">
+                        <div class="columns is-gapless">
+                            <div class="column is-three-quarters">
+                                <div class="field">
+                                    <div class="control has-icons-left">
+                                        <input type="text" id="precio" name="precio" placeholder="Precio" class="input">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="select is-fullwidth">
+                                    <select id="moneda" name="moneda">
+                                        <option value="USD">USD</option>
+                                        <option value="EUR">EUR</option>
+                                        <option value="JPY">JPY</option>
+                                        <option value="GBP">GBP</option>
+                                        <option value="CAD">CAD</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="descripcion1" name="descripcion1" placeholder="Descripción 1" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-file-alt"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="descripcion2" name="descripcion2" placeholder="Descripción 2" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-file-alt"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <input type="text" id="descripcion3" name="descripcion3" placeholder="Descripción 3" class="input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-file-alt"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <button type="submit" class="button is-primary is-fullwidth">
+                                <span class="icon">
+                                    <i class="fas fa-save"></i>
+                                </span>
+                                <span>Enviar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-half">
+
+                    <img src="https://www.xtrafondos.com/descargar.php?id=2022&vertical=1" alt="">
+
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

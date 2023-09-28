@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(45deg, #5990ab,#1f1f1f,#1f1f1f,#1f1f1f,#5990ab);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 5px;
+    width: 100%; /* Cambia a 100% para ocupar todo el ancho del viewport */
+    height: auto;
+}
+
+
+
+.content {
+    display: flex; /* Agrega flexbox */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 900px; /* Cambia "width" a "max-width" */
+    background-color: #ffffff14;
+    margin: 20px auto; /* Ajusta el margen para centrar vertical y horizontalmente */
+    padding: 20px; /* Agrega espacio interno */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
+form {
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.field {
+    margin-bottom: 5px;
+}
+
+.field select,
+.field input[type="text"],
+.field input[type="date"] {
+    font-family: Times;
+    background-color: #6d9ce9a1;
+    color: #ffffff;
+    border-color: #363b43;
+    
+}
+
+
+
+h1 {
+    font-family: Times;
+    color: #8edcb9;
+}
+
+.field input::placeholder,
+.field select::placeholder {
+    color: #ffffff;
+    
+}
+
+img{
+    height: 660px;
+}
+
