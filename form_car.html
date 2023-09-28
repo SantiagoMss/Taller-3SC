@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriculación Auto</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="min-h-screen flex justify-center items-center">
+        <div class="w-full max-w-lg bg-blue-700 text-white p-8 rounded-lg shadow-lg">
+            <form action="">
+                <h2 class="text-3xl font-semibold mb-4 text-center">Matriculación Auto</h2>
+                <div class="mb-4">
+                    <input type="text" name="id_car" placeholder="ID auto" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                <div class="mb-4">
+                    <select id="id-movidoa" name="id-movidoa[]" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                        <option value="" disabled selected class="text-gray-400">Tipo de combustible</option>
+                        <option value="gasolina" class="text-black">Gasolina</option>
+                        <option value="diesel" class="text-black">Diésel</option>
+                        <option value="gas-natural" class="text-black">Gas Natural</option>
+                        <option value="electrico" class="text-black">Eléctrico</option>
+                        <option value="hibrido" class="text-black">Híbrido</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <select id="tipos-auto" name="tipos-autos[]" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                        <option value="" disabled selected class="text-gray-400">Tipo de auto</option>
+                        <option value="sedan" class="text-black">Sedán</option>
+                        <option value="camioneta" class="text-black">Camioneta</option>
+                        <option value="deportivo" class="text-black">Deportivo</option>
+                        <option value="SUV" class="text-black">SUV</option>
+                        <option value="hatchback" class="text-black">Hatchback</option>
+                        <option value="coupe" class="text-black">Coupé</option>
+                        <option value="convertible" class="text-black">Convertible</option>
+                        <option value="pickup" class="text-black">Pickup</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <select id="estados-auto" name="estados-auto[]" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                        <option value="" disabled selected class="text-gray-400">Estado del auto</option>
+                        <option value="nuevo" class="text-black">Nuevo</option>
+                        <option value="usado" class="text-black">Usado</option>
+                        <option value="en-reparacion" class="text-black">En Reparación</option>
+                        <option value="en-alquiler" class="text-black">En Alquiler</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <select id="marcas" name="marcas[]" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                        <option value="" disabled selected class="text-gray-400">Marca del auto</option>
+                        <option value="Mercedes-Benz" class="text-black">Mercedes-Benz</option>
+                        <option value="BMW" class="text-black">BMW</option>
+                        <option value="Audi" class="text-black">Audi</option>
+                        <option value="Lexus" class="text-black">Lexus</option>
+                        <option value="Porsche" class="text-black">Porsche</option>
+                        <option value="Jaguar" class="text-black">Jaguar</option>
+                        <option value="Land Rover" class="text-black">Land Rover</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <select id="tipo-id" name="tipo-id" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                        <option value="" disabled selected class="text-gray-400">ID usuario</option>
+                        <option value="cedula" class="text-black">Cédula</option>
+                        <option value="pasaporte" class="text-black">Pasaporte</option>
+                        <option value="licencia" class="text-black">Licencia de Conducir</option>
+                        <option value="tarjeta" class="text-black">Tarjeta de Identificación</option>
+                        <option value="otro" class="text-black">Otro</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" name="modelo" placeholder="Modelo auto" maxlength="60" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" name="anio" placeholder="Año auto" maxlength="4" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" name="detalle" placeholder="Detalle auto" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="number" id="caja" name="caja" step="1" placeholder="Caja auto" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" id="motor" name="motor" pattern="\d{1,2}\.\d{2}" placeholder="Motor auto" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" name="fecha-pub" placeholder="Fecha" maxlength="10" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" id="precio" name="precio" pattern="\d{1,6}\.\d{2}" placeholder="Precio" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" name="divisa" placeholder="Divisa" maxlength="3" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                <div class="mb-4">
+                    <input type="text" id="cc-pic1" name="cc-pic1" maxlength="85" placeholder="Ingrese la descripción del carro 1" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" id="cc-pic2" name="cc-pic2" maxlength="85" placeholder="Ingrese la descripción del carro 2" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" id="cc-pic3" name="cc-pic3" maxlength="85" placeholder="Ingrese la descripción del carro 3" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" id="cc-pic4" name="cc-pic4" maxlength="2" placeholder="Destacado" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-300">
+                </div>
+                
+                
+                
+                 
+                
+                
+                
+                <!-- Agrega el resto de tus campos aquí siguiendo el mismo patrón -->
+
+                <button type="submit" class="w-full py-2 bg-white text-blue-700 rounded-md hover:bg-blue-100 focus:outline-none">Registro</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
