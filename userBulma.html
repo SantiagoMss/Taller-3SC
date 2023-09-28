@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="userBulma.css">
+</head>
+    
+<body>
+    <section class="section">
+        <div class="container">
+            <form method="POST">
+                <h1 class="title">Registro de Usuarios</h1>
+
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="integer" id="id_usuario" name="id_usuario" maxlength="11"
+                            placeholder="Id Usuario" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="text" id="nombre" name="nombre" maxlength="25" placeholder="Nombre"
+                            required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="text" id="apellido" name="apellido" maxlength="25"
+                            placeholder="Apellido" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="text" id="direccion" name="direccion" maxlength="45"
+                            placeholder="Dirección" required>
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <div class="control">
+                        <input class="input" type="text" id="ccusuario" name="ccusuario" maxlength="20"
+                            placeholder="Usuario" required>
+                    </div>
+                </div>
+                <div class="field">
+
+                    <div class="control has-icons-right">
+                        <input class="input" type="password" id="ccpaswd" name="ccpaswd" placeholder="Contraseña"
+                            required>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control has-icons-right">
+                        <input class="input" type="email" id="email" name="email" maxlength="120" placeholder="Email"
+                            required>
+                        <span class="icon is-right">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-info" type="tel" id="telefono" name="telefono" maxlength="20"
+                            placeholder="Teléfono" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control has-icons-left">
+                        <div class="select is-fullwidth">
+                            <select id="id_pais" name="id_pais">
+                                <option disabled selected>Seleccionar Pais</option>
+                                <option value="1">Estados Unidos</option>
+                                <option value="2">Canadá</option>
+                                <option value="3">Reino Unido</option>
+                                <option value="4">Australia</option>
+                                <option value="5">Alemania</option>
+                                <option value="6">Francia</option>
+                                <option value="7">Italia</option>
+                                <option value="8">España</option>
+                                <option value="9">Japón</option>
+                                <option value="10">China</option>
+                                <option value="11">India</option>
+                                <option value="12">Brasil</option>
+                                <option value="13">Colombia</option>
+                                <option value="14">Argentina</option>
+                            </select>
+                            <div class="icon is-small is-left">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-success is-fullwidth" type="submit">Registrarse</button>
+                    </div>
+                </div>
+                <label class="checkbox has-text-white">
+                    <input type="checkbox">
+                    Remember me
+                  </label>
+        </div>
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>

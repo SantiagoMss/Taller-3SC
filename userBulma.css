@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/273/916/original/abstract-organic-shape-hand-drawn-aesthetic-green-minimal-background-vector.jpg);
+    background-size: auto;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.control.has-icons-left .icon.is-left {
+    left: 0;
+}
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+    color: #69de79;
+    height: 2.5em;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 2.5em;
+    z-index: 4;
+}
+.icon.is-small {
+    height: 1rem;
+    width: 1rem;
+}
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.title{
+    font-family: cursive;
+    color: #979797;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.833);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.579);
+}
+
+::placeholder{
+    color: #262626;
+}
+
+.input{
+    font-family: cursive;
+    background-color: white;
+}
+
+
