@@ -1,0 +1,116 @@
+body{
+    margin: 80px;
+    padding: 6px 6px;
+    box-sizing: border-box;
+    background-image: url(https://cutewallpaper.org/28/dark-cyan-wallpaper/black-cyan-wallpapers-top-free-black-cyan-backgrounds-wallpaperaccess.png);
+    background-size: 160%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.contenido {
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 450px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background: linear-gradient(45deg,#4eb3b6, #134347, #061214, #061214, #134347, #4eb3b6);
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.title {
+    color: #ffffffa4;
+    width: 100;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.colI {
+    width: 50%; 
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: transparent; 
+    border-radius: 5px; 
+   
+}
+
+
+
+.colD {
+    width: 50%; 
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: transparent; 
+    border-radius: 5px; 
+}
+
+form{
+    width: 450px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #dde5e34a;
+    margin-bottom: 30px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+
+select{
+    margin-left: 24px;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 10px 10px;
+    color: #a4a4a4;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #192120;
+    border-radius: 10px;
+}
+
+
+button[type="submit"] {
+    background-color: #000000ae; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 90%;
+    color: #d9d9d9; 
+    border-color: #e9f3f1;
+    border-radius: 5px;
+    font-size: 18px; 
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.lab ::placeholder{
+    color: #b0b0b0;
+    padding-left:15px ;
+}
+
+.lab input {
+    padding: 5px 7px;
+    color: #fff;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: #ffffff2b;
+}

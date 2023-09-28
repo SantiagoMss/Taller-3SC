@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="usercss.css">
+</head>
+
+<body>
+    <div class="contenido">
+        <h1 class="title">REGISTRO DE USUARIOS</h1>
+        <form method="POST">
+            <div class="colI">
+                <div class="lab">
+                    <input class="input" type="integer" id="id usuario" name="id usuario" maxlength="11" placeholder="Id Usuario" required>
+                </div>
+                
+                <div class="lab">
+                    <input class="input" type="varchar" id="nombre" name="nombre" maxlength="25" placeholder="Nombre" required>
+                </div>
+                <div class="lab">
+                    <input class="input" type="varchar" id="apellido" name="apellido" maxlength="25" placeholder="Apellido" required>
+                </div>
+                <div class="lab">
+                    <input class="input" type="varchar" id="direccion" name="direccion" maxlength="45" placeholder="Dirección" required>
+                </div>
+            </div>
+            <div class="colD">
+                <div class="lab">
+                    <input class="input" type="varchar" id="ccusuario" name="ccusuario" maxlength="20" placeholder="Usuario" required>
+                </div>
+                <div class="lab">
+                    <input class="input" type="password" id="ccpaswd" name="ccpaswd" placeholder="Contraseña" required>
+                </div>
+                <div class="lab">
+                    <input class="input" type="email" id="email" name="email" maxlength="120" placeholder="Email" required>
+                </div>
+                <div class="lab">
+                    <input class="input" type="varchar" id="telefono" name="telefono" maxlength="20" placeholder="Telefono" required>
+                </div>
+                
+            </div>
+            <div class="select">
+                <select id="id_pais" name="id_pais">
+                    <option disabled selected>Seleccionar Pais</option>
+                    <option value="1">Estados Unidos</option>
+                    <option value="2">Canadá</option>
+                    <option value="3">Reino Unido</option>
+                    <option value="4">Australia</option>
+                    <option value="5">Alemania</option>
+                    <option value="6">Francia</option>
+                    <option value="7">Italia</option>
+                    <option value="8">España</option>
+                    <option value="9">Japón</option>
+                    <option value="10">China</option>
+                    <option value="11">India</option>
+                    <option value="12">Brasil</option>
+                    <option value="13">Colombia</option>
+                    <option value="14">Argentina</option>
+                </select>
+            </div>
+            
+        </form>
+        <button type="submit">Registrarse</button>
+    </div>
+</body>
+
+</html>
