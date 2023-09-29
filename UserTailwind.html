@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex justify-center items-center">
+        <div class="w-full max-w-md bg-blue-900 text-white p-8 rounded-lg shadow-lg">
+            <form action="">
+                <h2 class="text-3xl font-semibold mb-4 text-center">Registration</h2>
+                <div class="mb-4">
+                    <div class="relative">
+                        <input type="text" name="id_user" placeholder="ID" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                        
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="mb-4">
+                        <select class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500 " id="pais" name="pais">
+                            <option value="" disabled selected style="color: white;">Choose a country</option>
+                            <option value="CO" style="color: black;">Colombia</option>
+                            <option value="US" style="color: black;">Estados Unidos</option>
+                            <option value="CN" style="color: black;">China</option>
+                            <option value="IN" style="color: black;">India</option>
+                            <option value="BR" style="color: black;">Brasil</option>
+                            <option value="RU"style="color: black;">Rusia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="names_user" placeholder="Name" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="lastnames_user" placeholder="Last Name" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="Adress" placeholder="Address" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="cc_user" placeholder="Cedula Number" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <input type="password" name="cc_paswd" placeholder="Password" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="cc_email" placeholder="Email" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="tel_user" placeholder="Phone Number" class="w-full bg-transparent border-b-2 border-white p-2 focus:outline-none focus:border-blue-500">
+                </div>
+                <p class="mb-4">By registering with ConnectSpanish, you are providing your explicit consent for us to collect and process your personal information as outlined in this Data Privacy Policy.</p>
+                <button type="submit" formaction="https://www.uis.edu.co/estudiantesWebJ8/autenticacion.jsf" class="w-full py-2 bg-white text-blue-900 rounded-md hover:bg-blue-100 focus:outline-none">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
